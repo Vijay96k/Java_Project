@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="title">Registration</div>
+
+        <form action="register.jsp" method="post" onsubmit="return validateForm()">
+            
+            <div class="user-details">
+
+                <div class="input-box">
+                    <label class="details" for="name">Full Name</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name">
+                </div>
+
+                <div class="input-box">
+                    <label class="details" for="email">Email</label>
+                    <input type="text" id="email" name="email" placeholder="Enter your email">
+                </div>
+
+                <div class="input-box">
+                    <label class="details" for="password">Password</label>
+                    <input type="password" id="password" name="password" placeholder="Enter your password">
+                </div>
+
+                <div class="input-box">
+                    <label class="details" for="confirm">Re-enter Password</label>
+                    <input type="password" id="confirm" placeholder="Re-enter your password">
+                </div>
+
+            </div>
+            
+            <div class="button">
+                <input type="submit" value="Register">
+            </div>
+
+        </form>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
