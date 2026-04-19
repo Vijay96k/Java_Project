@@ -1,0 +1,9 @@
+<servlet>
+    <servlet-name>view</servlet-name>
+    <servlet-class>ViewUsersServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>view</servlet-name>
+    <url-pattern>/view</url-pattern>
+</servlet-mapping>
