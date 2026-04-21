@@ -18,7 +18,6 @@ if(name != null && email != null && password != null){
             ""
         );
 
-        // Insert user
         String query = "INSERT INTO users(name,email,password) VALUES(?,?,?)";
         ps = con.prepareStatement(query);
         ps.setString(1, name);
@@ -28,7 +27,6 @@ if(name != null && email != null && password != null){
         int i = ps.executeUpdate();
 
         if(i > 0){
-            // Redirect to view users
             response.sendRedirect("ViewUsersServlet");
         } else {
             out.println("<h3>Registration Failed</h3>");
