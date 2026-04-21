@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User Module</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<div class="container">
+    <div class="title">Register User</div>
+
+    <form action="register.jsp" method="post" onsubmit="return validateForm()">
+
+        <div class="user-details">
+
+            <div class="input-box">
+                <label class="details">Full Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            </div>
+
+            <div class="input-box">
+                <label class="details">Email</label>
+                <input type="text" id="email" name="email" placeholder="Enter your email" required>
+            </div>
+
+            <div class="input-box">
+                <label class="details">Password</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password" required>
+            </div>
+
+            <!-- ✅ NEW FIELD -->
+            <div class="input-box">
+                <label class="details">Re-enter Password</label>
+                <input type="password" id="confirm" placeholder="Re-enter your password" required>
+            </div>
+
+        </div>
+
+        <div class="button">
+            <input type="submit" value="Register">
+        </div>
+
+    </form>
+
+</div>
+
+<!-- ✅ LINK YOUR JS FILE -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
