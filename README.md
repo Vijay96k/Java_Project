@@ -80,40 +80,6 @@ The system integrates **JSP, Servlets, JDBC, HTML, CSS, and JavaScript** to prov
 
 ---
 
-## 📁 Project Structure (Suggested)
-
-```
-/project-root
-│── index.jsp
-│── register.jsp
-│── displayUsers.jsp
-│── updateUser.jsp
-│── deleteUser.jsp
-│
-├── /css
-│   └── styles.css
-│
-├── /js
-│   └── validation.js
-│
-├── /servlet
-│   ├── RegisterServlet.java
-│   ├── DisplayServlet.java
-│   ├── UpdateServlet.java
-│   └── DeleteServlet.java
-│
-├── /dao
-│   └── UserDAO.java
-│
-├── /model
-│   └── User.java
-│
-└── /db
-    └── DBConnection.java
-```
-
----
-
 ## 🧠 Key Learning Outcomes
 
 * Understanding CRUD operations in web applications
